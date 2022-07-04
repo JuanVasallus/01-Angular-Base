@@ -1,0 +1,13 @@
+<h1>Dragon ball Z</h1>
+
+<hr>
+
+<div class="row">
+    <div clas="col">
+        <app-personajes [personaje]=" personaje"></app-personajes>
+
+    </div>
+    <div>
+        <app-agregar [nuevo]=" nuevo" (onNuevoPersonaje)="agregarNuevoPersonaje( $event )"></app-agregar>
+    </div>
+</div>
